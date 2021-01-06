@@ -1,0 +1,63 @@
+
+body{
+  background-color:#000D0A;
+}
+header{
+background-color: #012619;
+/*max-width:none;*/
+padding: 0;
+position: sticky;
+width: 100%;
+}
+h1{
+  padding-top: 20px;
+  text-align: center;
+  color: #A64F03;
+  text-transform: uppercase;
+}
+.servicios{
+    display: flex;
+
+}
+.imagen{
+  width: 50%;
+padding: 30px;
+
+}
+.pservicios{
+  padding: 20px;
+  color: #F2AF5C;
+  width: 50%;
+  font-size: 1.5em;
+}
+.navegacion{
+  padding: 1rem;
+  display: flex;
+  justify-content:flex-end;
+}
+a{
+  color: #A64F03;
+  padding: 8px;
+  text-decoration:none;
+
+}
+a:hover{
+  color: #6446A6;
+}
+.servicios2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.pservicios2{
+  color: #F2AF5C;
+  width: 100%;
+  font-size: 1.5em;
+
+
+/* Color Theme Swatches in Hex */
+.Verso-1-hex { color: #6446A6; }
+.Verso-2-hex { color: #000D0A; }
+.Verso-3-hex { color: #012619; }
+.Verso-4-hex { color: #F2AF5C; }
+.Verso-5-hex { color: #A64F03; }
